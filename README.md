@@ -21,7 +21,7 @@ cargo run --release
 Optional flags:
 
 ```bash
-cargo run --release -- --src /home/jef/Pictures/display/all --dst /home/jef/Pictures/display/all/grouped --seed 123
+cargo run --release -- --src /home/jef/Pictures/display/all --dst /home/jef/Pictures/display/grouped --seed 123
 ```
 
 The program will refuse to run if the destination folder is not empty (to avoid mixing old/new output).
